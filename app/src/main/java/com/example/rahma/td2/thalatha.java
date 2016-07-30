@@ -13,7 +13,7 @@ public class thalatha extends AppCompatActivity {
         setContentView(R.layout.activity_thalatha);
     }
 
-    public void connec(View view)
+    public void confi(View view)
     {
         Intent intent = new Intent(thalatha.this,rabaa.class);
         startActivity(intent);

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbar.rahma">
+
+    <item android:id="@+id/spinner"
+        app:showAsAction="always"
+        android:title="Filter"
+        app:actionViewClass="android.widget.Spinner" />
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_action_email"
+        android:title="action_favorite"
+        app:showAsAction="ifRoom" />
+
+</menu>
